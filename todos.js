@@ -9,7 +9,7 @@ const {sortTodoLists, sortTodos} = require ("./lib/sort");
 const store = require("connect-loki");
 
 const app = express();
-const host = "174.138.65.38";
+const host = "localhost";
 const port = 3000;
 const LokiStore = store(session);
 
